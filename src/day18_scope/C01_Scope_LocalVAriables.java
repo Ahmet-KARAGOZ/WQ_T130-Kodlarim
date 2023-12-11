@@ -1,8 +1,9 @@
 package day18_scope;
 
 public class C01_Scope_LocalVAriables {
-	public static void main(String[] args) {
 
+
+	public static void main(String[] args) {
 
 
 		// Kural 1 - Bir method icerisinde olusturulan variable'lara

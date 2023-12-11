@@ -46,6 +46,27 @@ public class C03_Equals_Compare {
             farkli olan ilk harfin diger stringBuilder'daki harf ile
             arasinda ascii tablosunda kac karkter oldugunu soyler
          */
+		StringBuilder sb23 = new StringBuilder(5 + 7 + "Java" + 4 + 5);
+
+		String isim="Mesut";
+
+		sb23.append(isim, 2, 4);
+
+		sb23.delete(4, 6);
+
+		System.out.println(sb23);
+
+		StringBuilder sbX = new StringBuilder("OCAJP8");
+
+		sbX.subSequence(2, 4);
+
+
+		sbX.deleteCharAt(3);
+
+		sbX.reverse( );
+
+		System.out.println(sbX);
+
 
 
 	}
