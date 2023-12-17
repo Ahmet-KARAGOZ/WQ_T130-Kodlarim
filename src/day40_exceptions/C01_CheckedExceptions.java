@@ -8,7 +8,7 @@ public class C01_CheckedExceptions {
 		String dosyaYolu = "src/day40_exceptions/yazi.txt";
 		try {
 			FileInputStream fis = new FileInputStream(dosyaYolu);
-		} catch (FileNotFoundException e){
+		} catch (FileNotFoundException e) {
 
 		}
 
